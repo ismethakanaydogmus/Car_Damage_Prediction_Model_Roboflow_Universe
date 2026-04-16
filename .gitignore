@@ -1,0 +1,25 @@
+# Dataset - GitHub'a yüklenmeyecek kadar büyük (ve gereksiz)
+Car-Damage detection.v1i.yolov8/
+
+# Model Ağırlıkları - best.pt 200MB'dan büyük, GitHub'ın 100MB sınırı var!
+runs/
+*.pt
+
+# Test ve Analiz Çıktıları
+predictions/
+analysis_output/
+
+# Python Önbellek Dosyaları
+__pycache__/
+*.pyc
+*.pyo
+
+# Sanal Ortam (Varsa)
+venv/
+.env/
+env/
+
+# IDE / Editör Ayarları
+.vscode/
+.idea/
+.DS_Store

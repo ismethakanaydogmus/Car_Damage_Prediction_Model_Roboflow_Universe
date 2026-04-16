@@ -1,0 +1,16 @@
+names:
+- Car-Damage
+nc: 1
+roboflow:
+  license: Public Domain
+  project: car-damage-detection-ha5mm
+  url: https://universe.roboflow.com/college-gxdrt/car-damage-detection-ha5mm/dataset/1
+  version: 1
+  workspace: college-gxdrt
+task: segment
+test: C:\Users\ismet\Desktop\Projects\car_damage_prediction_model_roboflow_universe\Car-Damage
+  detection.v1i.yolov8\test\images
+train: C:\Users\ismet\Desktop\Projects\car_damage_prediction_model_roboflow_universe\Car-Damage
+  detection.v1i.yolov8\train\images
+val: C:\Users\ismet\Desktop\Projects\car_damage_prediction_model_roboflow_universe\Car-Damage
+  detection.v1i.yolov8\valid\images
