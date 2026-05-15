@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['crack', 'dent', 'glass shatter', 'lamp broken', 'scratch', 'tire flat']
+
+roboflow:
+  workspace: ons-hmidi-vynwc
+  project: car-damage-detection-mumux
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ons-hmidi-vynwc/car-damage-detection-mumux/dataset/1

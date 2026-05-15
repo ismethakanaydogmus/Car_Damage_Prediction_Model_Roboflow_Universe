@@ -1,0 +1,19 @@
+names:
+- crack
+- dent
+- glass shatter
+- lamp broken
+- scratch
+- tire flat
+- Bonnet
+- Bumper
+- Dickey
+- Door
+- Fender
+- Light
+- Windshield
+nc: 13
+task: segment
+test: c:\Users\ismet\Desktop\Projects\car_damage_prediction_model_roboflow_universe\merged_dataset\test\images
+train: c:\Users\ismet\Desktop\Projects\car_damage_prediction_model_roboflow_universe\merged_dataset\train\images
+val: c:\Users\ismet\Desktop\Projects\car_damage_prediction_model_roboflow_universe\merged_dataset\valid\images

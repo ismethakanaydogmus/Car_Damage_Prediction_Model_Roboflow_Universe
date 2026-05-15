@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Bonnet', 'Bumper', 'Dickey', 'Door', 'Fender', 'Light', 'Windshield']
+
+roboflow:
+  workspace: bhone-myint-swe-c83rj
+  project: car-parts-damage-j7yeo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bhone-myint-swe-c83rj/car-parts-damage-j7yeo/dataset/1
